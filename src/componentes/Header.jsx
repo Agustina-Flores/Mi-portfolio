@@ -2,8 +2,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-900 via-indigo-700 to-purple-700 bg-opacity-90 backdrop-blur shadow-lg">
       <nav className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-        <h1 className="text-3xl font-extrabold tracking-wide text-white drop-shadow-sm"></h1>
-        <ul className="flex gap-10 font-semibold text-xl">
+        <ul className="ml-auto flex gap-10 font-semibold text-xl">
           <li>
             <a href="#inicio" className="text-blue-300 hover:text-white transition-colors duration-200">
               Inicio
