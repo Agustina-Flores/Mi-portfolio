@@ -1,15 +1,14 @@
 import { useEffect } from "react";
 import { AboutMe } from "./componentes/AboutMe";
 import { Contacto } from "./componentes/Contacto";
-import Header from "./componentes/Header";
+import { Header } from "./componentes/Header";
 import { Proyectos } from "./componentes/Proyecto";
 import { Skills } from "./componentes/Skills";
 import { Title } from "./componentes/Title";
  import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function App() {
-
+function App() { 
   useEffect(() => {
   AOS.init({ duration: 1000, once: true });
 }, []);
