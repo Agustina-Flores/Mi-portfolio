@@ -8,9 +8,11 @@ export const AboutMe = () =>
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
      
     <div data-aos="fade-right">
-      <h2 className="text-4xl font-bold text-white drop-shadow-md mb-6">Sobre mí</h2>
+      <h2 className="text-4xl font-bold text-white drop-shadow-md mb-6">
+        Sobre mí
+      </h2>
       <p className="text-lg leading-relaxed mb-4">
-        Soy Agustina Flores, desarrolladora fullstack de Mendoza, Argentina. Tengo experiencia en .NET, Angular y PostgreSQL, me apasiona crear soluciones tecnológicas funcionales, modernas y orientadas a las necesidades reales de los usuarios.
+        Soy desarrolladora fullstack. Tengo experiencia en .NET, Angular y PostgreSQL. Me apasiona crear soluciones tecnológicas funcionales, modernas y orientadas a las necesidades reales de los usuarios.
       </p>
       <p className="text-lg leading-relaxed">
         Valoro el trabajo en equipo, la mejora continua y la curiosidad como motor de aprendizaje. Mi objetivo es seguir creciendo como profesional en proyectos que me desafíen y aporten valor.
