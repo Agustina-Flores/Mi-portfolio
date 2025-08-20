@@ -72,6 +72,10 @@ export const Skills = () =>
               JSON
             </li>
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-7 h-7" />
+            Docker
+            </li>
+            <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" className="w-7 h-7" />
               Jira
             </li>
