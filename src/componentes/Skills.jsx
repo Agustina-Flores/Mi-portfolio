@@ -1,4 +1,4 @@
-import { SiReact, SiAngular,SiJavascript,SiHtml5,SiCss3,SiBootstrap,
+import { SiReact, SiAngular,SiJavascript,SiTypescript,SiNextdotjs,
   SiDotnet, SiPostgresql,SiGithub,SiPostman,SiRender} from 'react-icons/si';
     
 export const Skills = () =>
@@ -20,14 +20,11 @@ export const Skills = () =>
               <SiJavascript className="text-yellow-400 w-7 h-7" /> JavaScript ES6+
             </li>
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <SiBootstrap className="text-purple-500 w-7 h-7" /> Bootstrap
-            </li>
+              <SiNextdotjs className="w-7 h-7" /> Next.js
+            </li> 
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <SiHtml5 className="w-7 h-7" style={{ color: '#FF6C37' }}/> HTML5
-            </li>
-            <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <SiCss3 className="text-blue-500 w-7 h-7" /> CSS3
-            </li>
+              <SiTypescript className="w-7 h-7" /> Typescript
+            </li> 
           </ul>
         </div>
     
@@ -47,11 +44,7 @@ export const Skills = () =>
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server" className="w-7 h-7" />
               SQL Server
-            </li>
-            <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-7 h-7" />
-              Node.js
-            </li>
+            </li> 
           </ul>
         </div>
     
