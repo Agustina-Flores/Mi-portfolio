@@ -1,6 +1,5 @@
-import { SiReact, SiAngular,SiJavascript,SiNextdotjs,
-  SiDotnet, SiPostgresql,SiGithub,SiPostman,SiRender} from 'react-icons/si';
-
+import { SiReact, SiAngular,SiJavascript,SiNextdotjs,SiVercel,SiGit,
+  SiDotnet, SiPostgresql,SiGithub,SiPostman,SiRender} from 'react-icons/si'; 
 
 export const Skills = () =>
 {
@@ -51,10 +50,13 @@ export const Skills = () =>
         </div>
     
         <div>
-          <h2 className="text-3xl font-bold mb-6">🚀 Herramientas </h2>
+          <h2 className="text-3xl font-bold mb-6">🚀 Tools & Deployment </h2>
           <ul className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <SiGithub className="w-7 h-7" style={{ color: '#131313ff' }} /> Git & GitHub
+              <SiGit className="w-7 h-7" style={{ color: "#F05032" }} /> Git
+            </li>
+            <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
+              <SiGithub className="w-7 h-7" style={{ color: '#131313ff' }} /> GitHub
             </li>
           <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
               <SiPostman className="w-7 h-7" style={{ color: '#FF6C37' }} /> Postman
@@ -63,9 +65,8 @@ export const Skills = () =>
               <SiRender className="text-teal-300 w-7 h-7" /> Render
             </li>
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" alt="JSON" className="w-7 h-7" />
-              JSON
-            </li>
+              <SiVercel className="w-7 h-7" style={{ color: "#000000" }}/> Vercel
+            </li> 
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-7 h-7" />
             Docker
@@ -73,11 +74,7 @@ export const Skills = () =>
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" className="w-7 h-7" />
               Jira
-            </li>
-          <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" className="w-7 h-7" />
-            Visual Studio Code
-          </li>
+            </li>   
           </ul>
         </div>
 

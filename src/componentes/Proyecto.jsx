@@ -17,9 +17,9 @@ export const Proyectos = () => {
       {
       titulo: "Asistente de Texto con IA",
       descripcion: <>
-      Aplicación web desarrollada con Next.js que permite procesar texto mediante integración con la API de OpenAI, ofreciendo funcionalidades de resumen, mejora de redacción y generación de ideas.
-      <br /><br />
-      Implementa manejo seguro de variables de entorno, sistema de fallback en modo demo y despliegue en producción en Vercel.
+        Aplicación web desarrollada con Next.js que permite procesar texto mediante integración con API externa.
+        <br /><br />
+        Implementa manejo seguro de variables de entorno, sistema de fallback en modo demo y despliegue en producción en Vercel.
       </>,
       asistenteIa: asistenteIa,
       asistenteIaResult: asistenteIaResult,
