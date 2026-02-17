@@ -1,6 +1,7 @@
-import { SiReact, SiAngular,SiJavascript,SiTypescript,SiNextdotjs,
+import { SiReact, SiAngular,SiJavascript,SiNextdotjs,
   SiDotnet, SiPostgresql,SiGithub,SiPostman,SiRender} from 'react-icons/si';
-    
+
+
 export const Skills = () =>
 {
   return(
@@ -23,7 +24,8 @@ export const Skills = () =>
               <SiNextdotjs className="w-7 h-7" /> Next.js
             </li> 
             <li className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-4 shadow-md flex items-center gap-3">
-              <SiTypescript className="w-7 h-7" /> Typescript
+             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" className="w-7 h-7" />
+               TypeScript
             </li> 
           </ul>
         </div>
